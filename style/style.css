@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 0.75fr 3fr;
 }
 
 .sidebar {
@@ -16,4 +16,27 @@
 .main {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+}
+
+.sidebar-header,
+.sidebar-activity > div,
+.sidebar-option div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.header-activity {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5rem;
+}
+
+.header-search-container {
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+}
+
+.header-profile-container {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr) 1fr;
 }
