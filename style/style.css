@@ -40,3 +40,23 @@
     display: grid;
     grid-template-columns: repeat(2, 0.5fr) 1fr;
 }
+
+.nav-intro {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+}
+
+.nav-profile-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.nav-action {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.header div {
+    margin-bottom: 2%;
+}
