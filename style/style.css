@@ -1,6 +1,7 @@
 :root {
   --sidebar-bg-color: rgb(97, 193, 231);
   --contrast-text-color: #ffffff;
+  --main-bg: rgb(222, 225, 228);
 }
 
 .container {
@@ -28,7 +29,7 @@ h2 {
 .header {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  padding: 2%;
+  padding: 1.5%;
 }
 
 .main {
@@ -53,13 +54,29 @@ h2 {
 }
 
 .header-search-container {
-  display: grid;
-  grid-template-columns: 0.5fr 4fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#search-keyword {
+  width: 80%;
+  height: 70%;
+  border-radius: 5rem;
+  border: none;
+  background-color: var(--main-bg);
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .header-profile-container {
-  display: grid;
-  grid-template-columns: repeat(2, 0.5fr) 1fr;
+  display: flex;
+  gap: 7%;
+  align-items: center;
 }
 
 .nav-intro {
