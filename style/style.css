@@ -159,13 +159,21 @@ h2 {
   margin-left: 17%;
 }
 
+.profile-icon {
+  width: 2.5rem;
+}
+
+.large-icon {
+  width: 3rem;
+}
+
 .header-text,
 .icon-text {
   font-weight: bold;
   font-size: 1.5rem;
 }
 
-.search-btn {
+.btn-reset {
   background: none;
   border: none;
 }
