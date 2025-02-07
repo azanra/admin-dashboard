@@ -4,6 +4,8 @@
   --main-bg: rgb(222, 225, 228);
   --sidebar-shadow: gray;
   --project-border: orange;
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .container {
@@ -13,6 +15,7 @@
 
 body {
   margin: 0;
+  font-family: "Roboto", var(--system-ui);
 }
 
 p,
@@ -161,7 +164,7 @@ h2 {
 
 .main-sidebar-container {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 0.66fr 0.75fr;
 }
 
 .announcement-header {
